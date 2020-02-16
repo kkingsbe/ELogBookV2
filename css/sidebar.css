@@ -1,0 +1,30 @@
+.sidebar {
+  width: 5%;
+  height: 100%;
+  background: #2081C3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar-option {
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 15px;
+}
+.sidebar-option p {
+  margin-top: 3px;
+}
+.sidebar-option img {
+  width: 90%;
+  height: fit-content;
+}
+.sidebar-option-selected {
+  background: rgb(64, 103, 129);
+}
+.sidebar-option:hover {
+  background: rgb(68, 122, 158);
+}

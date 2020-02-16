@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flights</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/flights-table.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="sidebar-option sidebar-option-selected">
+          <img src="/res/paper-plane.svg" onclick="window.location.href = '/html/flights.html'">
+          <p>Flights</p>
+        </div>
+        <div class="sidebar-option" onclick="window.location.href = '/html/aircraft.html'">
+          <img src="/res/plane.svg">
+          <p>Aircraft</p>
+        </div>
+        <div class="sidebar-option" onclick="window.location.href = '/html/stats.html'">
+          <img src="/res/graph.svg">
+          <p>Stats</p>
+        </div>
+      </div>
+      <div class="content">
+        <div class="new-btn" onclick="window.location.href = '/html/newflight.html'">
+          <p>New</p>
+        </div>
+        <div class="flights-table-container">
+          <div class="flights-table">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/main.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+.flights-table-container {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.flights-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 3px 3px 5px 3px #ccc;
+}
+.flights-table-header {
+  display: flex;
+  flex-direction: row;
+  background: rgb(64, 103, 129);
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.flights-table-item {
+  display: flex;
+  flex-direction: row;
+  background: rgb(204, 226, 241);
+  border-top: 3px solid rgb(171, 190, 202);
+  cursor: pointer;
+}
+.flights-table-item:hover {
+  background: rgb(171, 190, 202);
+}
+.flights-table-cell {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
